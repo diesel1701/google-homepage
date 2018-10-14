@@ -5,17 +5,22 @@
     <link href="assets/stylesheets/main.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container-nav">
+    <div class="container-nav float">
       <nav class="nav-top-left">
         <a href="#">About</a>
         <a href="#">Store</a>
       </nav>
-      <div class="nav-top-center"></div>
       <nav class="nav-top-right">
         <a href="#">Gmail</a>
         <a href="#">Images</a>
-        <a href="#"><img src="#" height="10px" width="10px" alt="Google apps"></a>
-        <a href="#"><img src="#" height="10px" width="10px" alt="0 Google notifications"></a>
+        <a href="#" id="apps" title="Google apps">
+          <div class="nav-img"></div>
+        </a>
+        <a href="#" title="0 Google notifications">
+          <div class="nav-img bell-back">
+            <div class="bell-fore"></div>
+          </div>
+        </a>
         <a href="#"><img src="#" height="10px" width="10px" alt="Google Account: Your Name<br>(YourName@gmail.com)"></a>
       </nav>
     </div>
